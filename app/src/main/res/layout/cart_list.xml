@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="5dp"
+    android:background="@android:color/white"
+    android:paddingBottom="8dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/redmi_trans" />
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Redmi 8A Dual (Sea Blue, 2GB RAM, 32GB Storage) - Dual Cameras &amp; 5,000 mAH Battery"
+                android:textColor="@android:color/black" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="₹ 7,499"
+                android:textColor="#CA2430"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="In stock"
+                android:textColor="#3B7A57"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Eligible for FREE Shiping"
+                android:textColor="@android:color/black"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout3"
+        tools:layout_editor_absoluteX="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="130dp"
+            android:background="@color/graycolor"
+            android:text="Delete"
+            android:textSize="12dp"
+            android:elevation="1dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="16dp"
+            android:background="@color/graycolor"
+            android:text="Save for later"
+            android:elevation="1dp"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
